@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "latest": {
     "version": "1.0.0",
-    "url": "https://gitee.com/lingyi_2026/01-release/raw/master/01-launcher-1.0.0.zip",
+    "url": "",
     "sha256": "8e0b9a45e4de2053a2527e2cc6f7bcce06027c39bb453321e3807a6e5279af38",
-    "notes": "01启动器 1.0.0 首发",
+    "notes": "01启动器 1.0.0 首发（分卷手动下载，见 README）",
     "publishedAt": "2026-10-20",
     "mandatory": false
   }

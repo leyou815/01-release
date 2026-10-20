@@ -31,6 +31,21 @@
 2. 有新版本时，先上传安装包（发行版附件），再更新 `version-index.json` 的 `version` / `url` / `sha256`；
 3. 用户端「检查更新」→ 下载 → 校验 → 重启替换。
 
+## 下载 1.0.0（分卷）
+
+> 安装包 139.5MB，超过 Gitee 单文件 100MB 限制，已拆成 **2 个分卷**放在发行版附件里。
+
+1. 下载两个分卷：
+   - `01-launcher-1.0.0.zip.part00`（90MB）
+   - `01-launcher-1.0.0.zip.part01`（50MB）
+2. 合并（Windows 命令提示符，两个文件放同一目录）：
+   ```bat
+   copy /b 01-launcher-1.0.0.zip.part00 + 01-launcher-1.0.0.zip.part01 01-launcher-1.0.0.zip
+   ```
+   > 也可以用 7-Zip：右键 `part00` → 7-Zip → 提取到当前文件夹。
+3. 解压得到的 `01-launcher-1.0.0.zip`，双击 `01.exe`。
+4. 合并后 SHA-256：`8e0b9a45e4de2053a2527e2cc6f7bcce06027c39bb453321e3807a6e5279af38`
+
 ## 许可
 
 见 `LICENSE`。
