@@ -1,39 +1,36 @@
-# 01-release
+# 01启动器 · 发版仓库（01-release）
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+本仓库只放 **01启动器** 的版本索引与安装包，不含源码。
 
-#### 软件架构
-软件架构说明
+## 目录
 
+| 文件 | 作用 |
+|---|---|
+| `version-index.json` | 版本索引。启动器启动时读它判断有没有新版（地址写死在程序里） |
+| 发行版附件 `01-launcher-x.y.z.zip` | 启动器本体，解压即用 |
 
-#### 安装教程
+## 索引格式
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```json
+{
+  "schemaVersion": 1,
+  "latest": {
+    "version": "1.0.0",
+    "url": "安装包直链",
+    "sha256": "安装包 SHA-256（小写十六进制，64 位）",
+    "notes": "更新说明",
+    "publishedAt": "2026-10-20",
+    "mandatory": false
+  }
+}
+```
 
-#### 使用说明
+## 怎么用
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 启动器「设置中心 → 高级选项」里的更新源留空即用本仓库内置地址；
+2. 有新版本时，先上传安装包（发行版附件），再更新 `version-index.json` 的 `version` / `url` / `sha256`；
+3. 用户端「检查更新」→ 下载 → 校验 → 重启替换。
 
-#### 参与贡献
+## 许可
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+见 `LICENSE`。

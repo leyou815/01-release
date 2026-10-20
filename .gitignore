@@ -1,0 +1,11 @@
+# 安装包走「发行版附件」，不进仓库（单文件常超 100 MB 限制）
+*.zip
+*.exe
+*.7z
+*.rar
+
+# 系统与编辑器临时文件
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
