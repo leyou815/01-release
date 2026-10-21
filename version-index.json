@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "latest": {
     "version": "1.0.0",
-    "url": "",
-    "sha256": "8e0b9a45e4de2053a2527e2cc6f7bcce06027c39bb453321e3807a6e5279af38",
-    "notes": "01启动器 1.0.0 首发（分卷手动下载，见 README）",
-    "publishedAt": "2026-10-20",
+    "url": "https://ghproxy.net/https://github.com/leyou815/01-release/releases/download/v1.0.0/01-launcher-1.0.0.zip",
+    "sha256": "d65996ec74631e8b07c413c9ca88654da2c4b1801fbbef810ed48ffce8977c42",
+    "notes": "01 启动器 1.0.0（2026-10-22 重打包：启动检查屏重做 / 导航回第一页 / 组件体检 / 参数自动调优）",
+    "publishedAt": "2026-10-22",
     "mandatory": false
   }
 }
