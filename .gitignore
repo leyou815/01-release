@@ -10,3 +10,6 @@ desktop.ini
 .DS_Store
 *.tmp
 .release.json
+
+# 分卷（GitHub 用整包附件就够，不再需要；防误提交）
+*.part*

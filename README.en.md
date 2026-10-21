@@ -1,36 +1,72 @@
-# 01-release
+# 01 Launcher · Release repository (01-release)
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+This repository hosts **only** the version index and the installer of **01 Launcher** (closed-source; no source code here).
 
-#### Software Architecture
-Software architecture description
+- The installer (139.5 MB) lives in **Releases** — GitHub's 100 MB limit applies to files in the git repository, but a single release asset can be up to 2 GB, so the zip is not committed.
+- The repository itself only tracks `version-index.json` plus docs, which keeps clones small.
 
-#### Installation
+## Contents
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+| File | Purpose |
+|---|---|
+| `version-index.json` | Version index. The launcher reads it on startup to detect updates (URL is built into the app) |
+| Release asset `01-launcher-x.y.z.zip` | The launcher itself — extract and run (**one single zip, no split volumes**) |
 
-#### Instructions
+## Download & install (1.0.0)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Open **Releases** on the right → `v1.0.0` → download `01-launcher-1.0.0.zip` (139.5 MB, single file, no merging needed).
+2. Extract to an **ASCII-only path** (e.g. `D:\01-comfyui`; avoid `C:\Program Files` and non-ASCII paths).
+3. Run `01.exe` and follow the first-run wizard to pick the runtime and the ComfyUI folder.
 
-#### Contribution
+**SHA-256 (recommended check after download)**
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+```
+d65996ec74631e8b07c413c9ca88654da2c4b1801fbbef810ed48ffce8977c42
+```
 
+Windows (PowerShell):
 
-#### Gitee Feature
+```powershell
+Get-FileHash .\01-launcher-1.0.0.zip -Algorithm SHA256
+```
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+> A mismatch means the download was corrupted — delete it and download again.
+
+## Index format
+
+```json
+{
+  "schemaVersion": 1,
+  "latest": {
+    "version": "1.0.0",
+    "url": "direct download URL (release asset)",
+    "sha256": "installer SHA-256 (lowercase hex, 64 chars)",
+    "notes": "release notes",
+    "publishedAt": "2026-10-22",
+    "mandatory": false
+  }
+}
+```
+
+## Releasing (maintainers)
+
+1. Package → get `01-launcher-x.y.z.zip`;
+2. Create a GitHub Release (tag e.g. `v1.0.0`) and upload the zip as an **asset**;
+3. Update `version` / `url` / `sha256` / `notes` / `publishedAt` in `version-index.json` and commit;
+4. On the user side: startup check → download → SHA-256 verify → restart & replace (models, nodes and settings are preserved).
+
+Asset URL pattern:
+
+```
+https://github.com/<owner>/01-release/releases/download/<tag>/01-launcher-x.y.z.zip
+```
+
+## Version history
+
+| Version | Date | Notes |
+|---|---|---|
+| 1.0.0 | 2026-10-22 | First release: download manager (resume / tri-state remove), workflow check & one-click repair, node/model/kernel/component managers, automatic launch-arg tuning, error-doctor noise filtering, folder mapping (revocable), launcher self-update |
+
+## License
+
+See `LICENSE`.
