@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "latest": {
-    "version": "1.0.0",
-    "url": "https://ghproxy.net/https://github.com/leyou815/01-release/releases/download/v1.0.0/01-launcher-1.0.0.zip",
-    "sha256": "d65996ec74631e8b07c413c9ca88654da2c4b1801fbbef810ed48ffce8977c42",
-    "notes": "01 启动器 1.0.0（2026-10-22 重打包：启动检查屏重做 / 导航回第一页 / 组件体检 / 参数自动调优）",
+    "version": "1.0.1",
+    "url": "https://github.com/leyou815/01-release/releases/download/v1.0.1/01-launcher-1.0.1.zip",
+    "sha256": "a1179ac428a718f2f01e9eacc2941c45c7b2c3540b8bfdb674d30214b91ede45",
+    "notes": "1.0.1：修复更新检查白等 24 秒（镜像重复嵌套）；更新包下载改为多源自动重试；启动检查界面重做（680×350）；侧栏切换后回到第一页",
     "publishedAt": "2026-10-22",
     "mandatory": false
   }

@@ -1,21 +1,38 @@
-MIT License
+01启动器 专有软件许可 / Proprietary Software License
 
-Copyright (c) 2026 01
+Copyright (c) 2026 01. All rights reserved. 保留所有权利。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本许可适用于「01启动器」的全部内容，包括但不限于：安装包（01-launcher-*.zip）、
+其中的可执行文件与程序包（01.exe、resources/app.asar）、界面与美术资源、文档与版本索引。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+一、允许你做什么
+  1. 在属于你自己的设备上安装、运行本软件；
+  2. 为个人使用目的备份你下载到的安装包；
+  3. 把你下载到的安装包原样（未经任何修改）提供给朋友，前提是保留本许可文件与全部版权声明。
+
+二、禁止做什么（未经作者书面许可）
+  1. 复制、公开分发、转售、出租、出借本软件或其任何部分；
+  2. 反向工程、反编译、反汇编、拆包（包括但不限于解包 app.asar）后使用其中的代码、界面或素材；
+  3. 修改、二次开发、去除或替换其中的标识与名称，并以任何形式发布或提供下载；
+  4. 将本软件或其部分整合进其他商业产品，或用其提供收费服务；
+  5. 删除、隐藏或修改本文件及任何版权声明。
+
+三、免责声明
+  本软件按「现状」提供，不附带任何明示或暗示的担保，包括但不限于适销性、
+  特定用途适用性与不侵权担保。因使用或无法使用本软件造成的任何直接或间接损失，
+  作者不承担责任。使用本软件即表示你已知悉并接受本条款；若不接受，请停止使用并删除本软件。
+
+四、违约
+  违反上述任一条款即构成侵权，作者保留追究法律责任的权利。
+
+────────────────────────────────────────────────────────────
+This software is proprietary. All rights reserved.
+
+You may install and use this software on your own devices, and keep a backup copy
+of the installer you downloaded. Redistribution, resale, decompilation, unpacking
+(app.asar included), modification, rebranding or integration into other products
+is NOT permitted without prior written permission from the author.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
