@@ -1,11 +1,11 @@
 {
     "schemaVersion":  1,
     "latest":  {
-                   "version":  "1.0.2",
-                   "url":  "https://github.com/leyou815/01-release/releases/download/v1.0.2/01-launcher-1.0.2.zip",
-                   "sha256":  "a5396f087cfb97a2b2faa5ab1a2f1e94619f6954aeffba73fb538f7f8e76fe5a",
-                   "notes":  "01 启动器 1.0.2",
-                   "publishedAt":  "2026-10-23",
+                   "version":  "1.0.3",
+                   "url":  "https://github.com/leyou815/01-release/releases/download/v1.0.3/01-launcher-1.0.3.zip",
+                   "sha256":  "d31f478f005bee133dd25c8644ce2b5d15d2b005fd62d7a56161943c8c4926ca",
+                   "notes":  "1.0.3：更新改为后台静默下载（不再挡启动）+ 8 段并发 + 下载前测速选源；含文件夹映射散文件硬链接、映射状态识别修复、启动检查屏与主界面双窗口",
+                   "publishedAt":  "2026-10-24",
                    "mandatory":  false
                }
 }
