@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "latest":  {
-                   "version":  "1.0.4",
-                   "url":  "https://01-comfyui-1349836575.cos.ap-nanjing.myqcloud.com/01-launcher-1.0.4.zip",
-                   "sha256":  "66ff129cc7eee1296f40ddf3a9dd8bc82a79a240f5c8aa8b7ecc6435704ae22a",
-                   "notes":  "1.0.4：更新可取消（更新慢也不必强关窗口，取消后继续用当前版本）；解压改为异步并强校验完整性（修「下载完成但版本没变」）；后台更新不再混进下载管理；自动清理更新残留",
+                   "version":  "1.0.5",
+                   "url":  "https://01-comfyui-1349836575.cos.ap-nanjing.myqcloud.com/01-launcher-1.0.5.zip",
+                   "sha256":  "1dbdae42dc322cb06f37bde27830fc47912e33dcb66df997c6bb8485ddd44681",
+                   "notes":  "1.0.5：更新源改成四挡兜底（gh-proxy → ghproxy → ghfast → 直连），开机检查不再因某个镜像超时干等 8 秒；安装包继续走腾讯云",
                    "publishedAt":  "2026-10-24",
                    "mandatory":  false
                }
