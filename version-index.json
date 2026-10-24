@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "latest":  {
-                   "version":  "1.0.5",
-                   "url":  "https://01-comfyui-1349836575.cos.ap-nanjing.myqcloud.com/01-launcher-1.0.5.zip",
-                   "sha256":  "1dbdae42dc322cb06f37bde27830fc47912e33dcb66df997c6bb8485ddd44681",
-                   "notes":  "1.0.5：更新源改成四挡兜底（gh-proxy → ghproxy → ghfast → 直连），开机检查不再因某个镜像超时干等 8 秒；安装包继续走腾讯云",
+                   "version":  "1.0.6",
+                   "url":  "https://01-comfyui-1349836575.cos.ap-nanjing.myqcloud.com/01-launcher-1.0.6.zip",
+                   "sha256":  "06d71fde847f93a4e6fee17b15719fa22f1c4c21dfd0a1e7680ad1e3529e7f73",
+                   "notes":  "01 启动器 1.0.6",
                    "publishedAt":  "2026-10-24",
                    "mandatory":  false
                }
