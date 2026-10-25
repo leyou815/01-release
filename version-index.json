@@ -3,9 +3,9 @@
     "latest":  {
                    "version":  "1.0.7",
                    "url":  "https://github.com/leyou815/01-release/releases/download/v1.0.7/01-launcher-1.0.7.zip",
-                   "sha256":  "e927c697ec99f68d32ef663d577df0854e3046781e3bf453a7c3091490c01ede",
+                   "sha256":  "4161fe19cd647ca1be6a1666e372ba646bfcfc0229cba37c81e8b5cf1d1a8052",
                    "notes":  "01 启动器 1.0.7",
-                   "publishedAt":  "2026-10-25",
+                   "publishedAt":  "2026-10-26",
                    "mandatory":  false
                }
 }
